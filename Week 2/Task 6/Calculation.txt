@@ -1,0 +1,19 @@
+RISK ASSESSMENT CALCULATION (ALE)
+
+Asset Value (AV) = 100,000
+Exposure Factor (EF) = 0.5
+Annual Rate of Occurrence (ARO) = 2
+
+Step 1: Calculate Single Loss Expectancy (SLE)
+SLE = AV × EF
+SLE = 100,000 × 0.5 = 50,000
+
+Step 2: Calculate Annual Loss Expectancy (ALE)
+ALE = SLE × ARO
+ALE = 50,000 × 2 = 100,000
+
+Final Result:
+The Annual Loss Expectancy (ALE) is 100,000.
+
+Interpretation:
+The organization can expect an estimated annual loss of 100,000 due to the identified risk. This helps prioritize security controls and mitigation strategies.

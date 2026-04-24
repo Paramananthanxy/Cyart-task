@@ -1,0 +1,5 @@
+| Alert                | Tactic              | Technique | Notes                         |
+|----------------------|---------------------|-----------|-------------------------------|
+| Suspicious HTTP      | Command and Control | T1071     | Possible outbound C2 traffic  |
+| Block Malicious IP   | Initial Access      | T1566     | Simulated phishing source     |
+| Unauthorized Traffic | Defense Evasion     | T1070     | Attempted suspicious activity |

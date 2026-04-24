@@ -1,0 +1,1 @@
+drop ip 192.168.1.100 any -> any any (msg:"Block Malicious IP"; sid:1000001; rev:1;)
