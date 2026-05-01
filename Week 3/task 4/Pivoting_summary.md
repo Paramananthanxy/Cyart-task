@@ -1,0 +1,2 @@
+**Pivoting summary:**  
+Using Impacket's psexec.py, attacker authenticated to Windows 7 host (10.148.42.179) using Administrator credentials harvested from the compromised machine. psexec uploaded a service binary via SMB to ADMIN$ share, executed it remotely via SVCManager, and returned an interactive SYSTEM shell — achieving successful lateral movement. 
