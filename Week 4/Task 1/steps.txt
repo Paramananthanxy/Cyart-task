@@ -1,0 +1,7 @@
+1. Started Metasploit listener
+2. Configured reverse HTTPS payload
+3. Generated payload using msfvenom
+4. Transferred payload to Windows VM
+5. Executed payload
+6. Established Meterpreter session
+7. Performed system enumeration (sysinfo, ps, ipconfig)
