@@ -1,0 +1,2 @@
+Network Evasion Summary
+To bypass network-level monitoring, I routed Command and Control (C2) traffic through the Tor network using Proxychains. This obfuscated the source IP by tunneling encrypted packets through multiple global nodes. This technique ensures that victim-side forensic analysis only identifies a Tor exit node, preventing direct attribution to the attacker’s infrastructure.

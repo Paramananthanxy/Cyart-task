@@ -1,0 +1,30 @@
+CLOUD ATTACK LAB REPORT
+Objective
+
+Simulate cloud reconnaissance, IAM privilege escalation, and S3 data exfiltration techniques using cloud security tools and AWS-focused attack simulations.
+
+Tools Used
+AWS CLI
+Pacu
+CloudGoat
+Activities Performed
+Cloud Reconnaissance
+Enumerated S3 buckets using AWS CLI
+Identified publicly accessible storage resources
+Simulated vulnerable bucket discovery
+Privilege Escalation
+Simulated IAM permission enumeration using Pacu
+Identified potential privilege escalation paths caused by overly permissive IAM policies
+Data Exfiltration
+Simulated extraction of mock data from a vulnerable S3 bucket
+Verified successful download activity through exfiltration logs
+Reconnaissance Log
+Asset ID	Service	Misconfiguration	Notes
+AID001	S3	Public read access	Vulnerable bucket identified
+Exfiltration Log
+Action	Bucket	Result
+File Download	test-bucket-public	Mock data extracted successfully
+Key Findings
+Public S3 bucket exposure increases risk of unauthorized data access
+IAM misconfigurations can enable privilege escalation
+Cloud storage misconfigurations remain a major security concern in cloud environments

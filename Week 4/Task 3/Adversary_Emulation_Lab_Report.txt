@@ -1,0 +1,34 @@
+Adversary Emulation Lab Report 
+Objective
+
+Simulate APT29-style adversary behavior using adversary emulation tools and analyze blue team detection opportunities through monitoring logs.
+
+Tools Used
+MITRE Caldera
+Metasploit Framework
+Wazuh
+Evilginx2 (simulation purpose)
+Activities Performed
+Adversary Emulation
+Configured and launched an adversary emulation operation using Caldera
+Connected a Windows agent successfully
+Executed ATT&CK-based discovery and execution techniques
+Simulated phishing and persistence activities
+Enumerated Windows user accounts and system details
+Emulation Log
+Phase	TTP	Tool Used	Notes
+Phishing	T1566.001	Evilginx2	Credential harvest simulation
+Discovery	T1087	Caldera	Enumerated Windows user accounts
+Execution	T1059	Caldera	PowerShell execution
+Persistence	T1053	Caldera	Scheduled task persistence simulation
+Blue Team Detection Analysis
+Simulated Wazuh Detection Logs
+Timestamp	Alert Description	Source IP	Notes
+2026-05-05 21:45:00	User Account Enumeration	10.148.42.179	Discovery activity detected
+2026-05-05 21:46:00	Suspicious PowerShell Use	10.148.42.179	Caldera execution observed
+2026-05-05 21:47:00	Persistence Technique Detected	10.148.42.179	Scheduled task behavior identified
+Key Findings
+Caldera successfully simulated ATT&CK techniques
+Discovery and execution activities were observable through monitoring logs
+Simulated detections demonstrated blue team visibility into adversary behavior
+Persistence techniques generated detectable security events
