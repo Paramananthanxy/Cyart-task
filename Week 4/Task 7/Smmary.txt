@@ -1,0 +1,8 @@
+Credential Harvest Brief
+Utilizing native Windows Management Instrumentation (WMI), I performed stealthy reconnaissance to map local user SIDs. I then leveraged the reg utility to dump the SAM and SYSTEM hives as a Living off the Land technique. Finally, I used Mimikatz to extract NTLM hashes from these hives, harvesting administrative credentials successfully.
+
+
+Attack ID,Tool,Action,Notes
+LID001,PowerShell,Fileless execution,Executed an encoded command directly in memory to bypass disk-level signature scanning.
+LID002,WMI,User SID Mapping,Leveraged the native wmic utility to harvest account SIDs for stealthy system reconnaissance.
+LID003,Mimikatz + Reg,Credential Harvest,Utilized reg.exe to dump local hives and Mimikatz to extract NTLM hashes for local accounts.
